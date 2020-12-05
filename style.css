@@ -1,0 +1,125 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.125rem;
+    box-sizing:content-box;
+    
+}
+.container{
+    width: 1024px;
+    background-color: #FFFFFF;
+    min-height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header1{
+    background-color: rgb(41, 26, 26);
+    min-height: 250px;
+    position: relative;
+}
+.header2{
+    background-color: rgb(221, 221, 221);
+    min-height: 30px;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 100%;  
+    left: 50%;
+    transform: translate(-50%, -100%);
+    border-radius: 50%;
+    border: 7px  #FABE28 dotted;
+}
+
+.header2 h2{
+    font-size: 2.0rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: absolute;
+    top: -70%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    display: inline-block;
+    border: 5px #FABE28 solid;
+    background: #FABE28;
+    text-align: center;
+    padding: 15px;
+}
+
+
+section {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.section1{
+    padding: 0 30px;
+    min-height: 250px;
+    flex: 1;
+}
+.section2{
+    min-height: 250px;
+    flex: 1;
+}
+
+.header4{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+.card {
+    padding: 5%;
+    text-align: justify;
+}
+i {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 13px;
+    border: 7px  #FABE28 dashed;   
+}
+h3{
+    display: inline-block;
+    font-size: 1.7rem;
+    padding-left: 10px;
+}
+
+.para{
+    padding-top: 5%;
+}
+
+
+
+h4{
+    font-size: 1.4rem;
+    padding: 5px 0 10px;
+    position: relative;
+    float: left;
+}
+
+.date {
+    padding: 5px 0 10px;
+    position: relative;
+    float: right;
+}
+
+.expUL{
+    padding-left: 5%;
+}
+li{
+    list-style: square;
+    margin: 10px;
+}
+td, th{
+    border: solid 2px black;
+    text-align: center;
+    padding: 5px;
+}
+.eduTable{
+   padding-left: 4%;
+}
